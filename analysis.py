@@ -1,5 +1,5 @@
 import compress
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from optparse import OptionParser
 
 
