@@ -17,6 +17,7 @@ parser.add_option("-c", "--cycles_per_checkpoint",
 parser.add_option("-q", "--quiet",
                       action="store_false", dest="verbose")
 (options, args) = parser.parse_args()
+if options.verbose: print 'starting'
 import compress
 
 def lists_to_csv(x,y,fname):
